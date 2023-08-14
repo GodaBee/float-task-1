@@ -1,0 +1,64 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: black;
+    background: rgba(211, 211, 211, 0.37);
+}
+article {
+    border: 2px solid #6666661f;
+    /* margin: 20px; */
+    border-top: 6px solid #0974b3;
+    background: white;
+}
+h1 {
+    font-size: 900;
+    color: #0974b3;
+    
+}
+img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+/* p {
+    text-align: justify;
+    line-height: 20px;
+    padding: 10px;
+} */
+.metai {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #666;
+}
+.box {
+    padding: 20px;
+    overflow: hidden;
+    width: 930px;
+    margin-bottom: 20px;
+}
+.box1 {
+    float: left;
+    width: 450px;
+    height: 500px;
+    margin-right: 30px;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
